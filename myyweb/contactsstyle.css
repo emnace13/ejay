@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #2F323A;
+	box-sizing: border-box;
+}
+.menu ul{
+ 	display: inline-flex;
+ 	margin: 50px;
+}
+.menu ul li{
+	list-style: none;
+	text-decoration: none;
+	margin: 30px;
+	cursor: pointer;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 15px;
+	border-radius: 5px;
+}
+.menu ul li a:hover {
+	background-color: #19B3D3;
+	color: #fff;
+	transition: .2s ease-in-out;
+}
+.active {
+	color: #fff ! important;
+	font-weight: bold;
+	background-color: red;
+}
+.active:hover {
+	color: white  !important;
+	transition: .2s ease-in-out;
+}
+.container{
+	width: 450px;
+	height: 500px;
+	background: white;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #19B3D3;
+	border-radius: 15px;
+	font-family: sans-serif;
+}
+.my-contacts {
+	margin-top: 20px;
+	background-color: #19B3D3;
+	text-align: center;
+}
+.my-contacts i {
+	margin: 30px 25px;
+	background-color: #19B3D3;
+	color: #fff;
+}
+.my-contacts p {
+	background-color: #19B3D3;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 10px;
+}
